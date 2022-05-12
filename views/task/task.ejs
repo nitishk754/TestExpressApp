@@ -1,0 +1,48 @@
+<%- include('../includes/head') %>
+
+<%- include('../includes/nav') %>
+
+<div class="container">
+    <div class="row pt-4">
+        <div class="col-md-12">
+            <a href="#" class="btn btn-primary pull-right">Add Task</a>
+            <div class="card">
+                <div class="card-header">Task List </div>
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Task Id</th>
+                            <th>Title</th>
+                            <th>Project</th>
+                            <th>Created date</th>
+                            <th>Completion date</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">1</td>
+                            <td>T1234</td>
+                            <td>Create Vaccine record seeder</td>
+                            <td>Vaccine 2.0</td>
+                            <td>10/05/2022</td>
+                            <td>20/05/2022</td>
+                            <td><span class="badge badge-primary">In process</span></td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-success">Edit</a>
+                                <button type="button" class="btn btn-danger">Delete</button>
+                            </td>
+                        </tr>
+                      
+                    </tbody>
+                </table>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('../includes/footer') %>
