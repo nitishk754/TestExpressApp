@@ -7,6 +7,8 @@ router.get('/', function(req,res){
     res.render('login');
 })
 
+
+
 router.get('/dashboard', function(req,res){
     res.render('home')
 })
